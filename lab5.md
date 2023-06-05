@@ -47,4 +47,8 @@ class HelloWorld{
 The full command line (or lines) you ran to trigger the bug:
 The only command line neccesary to trigger this bug is ```bash runB.sh``` in a powershell terminal.
 A description of what to edit to fix the bug: All that is needed to fix this bug is to add a bash terminal instead of a powershell terminal. 
-I'd just like to reiterate that although this bug may not seem the most complex, I believe it is hard to realize initally and can lead to a lot of stress from changing files that are not producing the bug as it seems as though the bash and java files are the one's causing the error. Thanks for a great quater TA's.
+I'd just like to reiterate that although this bug may not seem the most complex, I believe it is hard to realize initally and can lead to a lot of stress from changing files that are not producing the bug as it seems as though the bash and java files are the one's causing the error. 
+
+## Refleciton:
+I enjoyed this class because I learned by doing. A majority of my learning occured during when I was working with a partner to get through all the tasks. Although the labs could be a little lengthy, I enjoyed that I was able to get hands on with the material. I also like the stress free testing with skill demos. I'm really glad to have learned how to use Git more because I've struggled in the past with collaborating on coding projects for Hackathons and independent video game creations. I've use Unity cloud, Google drive, and Microsoft Liveshare, but all of them are difficult to use for consistent long term projects. I'm also glad I learned how to use bash commands and vim because I've been asked for those skills on quite a few interviews. 
+Thanks for a great quater TA's.
