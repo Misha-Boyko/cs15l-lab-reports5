@@ -28,3 +28,23 @@ That fixed it!
 ![Image](successB.png)
 The bug was that although the student believed they were running their bash commands in a bash terminal, in reality, the terminal trying to run the commands was not appropriate. The powershell terminal initally says "powershell" on the right side of the terminal when added, but after typing a bash command into the terminal, it becomes called "bash" which can be confusing and has confused me in the past. I decided to choose this bug because it has happened to me in the past and the help from google on this particular bug is difficult to find.
 
+# 3.
+The file & directory structure needed is simply a new folder I called "DemoLab5" but this file can be named anything. The only two files that need to be made are "runB.sh" which will house the bash commands and "HelloWorld.java" which is the most basic java program which when run prints "Hello World" to a users terminal.
+The contents of each file before fixing the bug: The "runB.sh" consisted of 
+```
+javac HelloWorld.java
+java HelloWorld
+set -e
+```
+While the "HelloWorld.java" consisted of 
+```
+class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("Hello World");
+    }
+}
+```
+The full command line (or lines) you ran to trigger the bug:
+The only command line neccesary to trigger this bug is ```bash runB.sh``` in a powershell terminal.
+A description of what to edit to fix the bug: All that is needed to fix this bug is to add a bash terminal instead of a powershell terminal. 
+I'd just like to reiterate that although this bug may not seem the most complex, I believe it is hard to realize initally and can lead to a lot of stress from changing files that are not producing the bug as it seems as though the bash and java files are the one's causing the error. Thanks for a great quater TA's.
