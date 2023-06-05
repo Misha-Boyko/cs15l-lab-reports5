@@ -8,7 +8,7 @@ I am using a Laptop LG Gram which operates on Windows 11. I am using the VSCode 
 ## Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 When I type the command ```bash runB.sh``` which should run the bash script, the terminal crashes. All I have in the bash script is the compile and running of a java file I've called "HelloWorld". The java file 
 prints "Hello World" perfectly to the terminal when I run the compiling and running commands seperately, but when I try and use the bash script, the terminals crashes. 
-![Image](termBash.png.png)
+![Image](terminalB.png.png)
 ![Image](helloW.png.png)
 
 ## Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
